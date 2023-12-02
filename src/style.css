@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Poppins-regular";
+  src: url("./assets/Font/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url("./assets/Font/Poppins-Bold.ttf");
+}
+* {
+  font-family: "Poppins-regular";
+}
+
+body {
+  background-color: #313131;
+}
+
+.BtnSide {
+  background-color: transparent;
+  border: none;
+}
+.BtnSide svg {
+  font-size: 30px;
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.btn-close {
+  outline: none;
+  box-shadow: none;
+}
+
+.dateFilter {
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  padding: 10px 15px !important;
+  height: 38px;
+  margin-left: 10px;
+}
+.dateFilter .date {
+  font-size: 13px;
+}
+
+.searchNew {
+  width: 218px;
+  padding: 10px 38px;
+  border-radius: 25px;
+  border: none;
+  background: #e8e8e8;
+  outline: none;
+}
+
+.dashboardAll .pSide {
+  background: url("./assets/images/v870-tang-36.jpg") no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  height: 100%;
+  padding: 40px 30px;
+  position: fixed;
+  width: inherit;
+}
+@media (max-width: 1300px) {
+  .dashboardAll .pSide {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 992px) {
+  .dashboardAll .pSide {
+    position: unset;
+  }
+}
+.dashboardAll .pSide .Logo h5 {
+  font-weight: 800;
+}
+.dashboardAll .pSide .borderBtm {
+  border-bottom: 2px solid #313131;
+}
+.dashboardAll .pSide ul li {
+  margin: 25px 0;
+  padding: 6px 10px;
+}
+.dashboardAll .pSide ul li svg {
+  margin-right: 12px;
+}
+.dashboardAll ul {
+  margin: 0;
+  padding: 0;
+}
+.dashboardAll ul li {
+  list-style: none;
+}
+.dashboardAll .header {
+  padding: 30px 40px;
+  box-shadow: rgb(219, 240, 236) 0px 1px 10px;
+  background: white;
+}
+.dashboardAll .header .hideLg {
+  display: none !important;
+}
+@media (max-width: 992px) {
+  .dashboardAll .header .hideLg {
+    display: block !important;
+  }
+}
+@media (max-width: 575px) {
+  .dashboardAll .header {
+    padding: 20px 5px;
+  }
+  .dashboardAll .header .lSec h4 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .dashboardAll .header .name {
+    font-size: 13px;
+  }
+}
+.dashboardAll .header .lSec h4 {
+  font-weight: 800;
+}
+.dashboardAll .header .hideLg {
+  display: none;
+}
+@media (max-width: 992px) {
+  .dashboardAll .header .hideLg {
+    display: block;
+  }
+}
+.dashboardAll .detailPart {
+  padding: 40px 25px;
+  background: #313131;
+}
+.dashboardAll .detailPart .listP {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 25px;
+}
+.dashboardAll .detailPart .listP input {
+  width: 218px;
+  padding: 10px 38px;
+  border-radius: 25px;
+  border: none;
+  background: #e8e8e8;
+  outline: none;
+}
+@media (max-width: 1300px) {
+  .dashboardAll .detailPart .listP input {
+    width: 156px;
+  }
+}
+.dashboardAll .detailPart .listP ul li {
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background: #dbf0ec;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.dashboardAll .detailPart .SelecP ul li {
+  background: #76d5cb !important;
+}
+@media (max-width: 1300px) {
+  .dashboardAll .detailPart {
+    padding: 20px 15px;
+  }
+  .dashboardAll .detailPart .listP {
+    padding: 10px;
+  }
+  .dashboardAll .detailPart .listP ul li {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .dashboardAll .detailPart .listP {
+    margin: 15px 0;
+  }
+}
+
+.SearchInput {
+  position: relative;
+}
+.SearchInput .srIcn {
+  position: absolute;
+  left: 14px;
+  top: 10px;
+}
+.SearchInput .srIcn svg {
+  font-size: 20px;
+}
+
+.active {
+  background-color: #29bbac !important;
+  color: #fff;
+}
+
+.sideActive {
+  border: 1px solid #000;
+  border-radius: 21px;
+  background: #313131;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .dashboardAll .TabHide {
+    display: none;
+  }
+}
+.offcanva .pSide {
+  position: unset !important;
+}/*# sourceMappingURL=style.css.map */
